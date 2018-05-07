@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context="in.epaylater.test.MainActivity">
+
+        <EditText
+            android:id="@+id/txt_encdata"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="EncData" />
+
+        <EditText
+            android:id="@+id/txt_checksum"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Checksum" />
+
+        <EditText
+            android:id="@+id/txt_mcode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Mcode" />
+
+        <EditText
+            android:id="@+id/txt_payment_url"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="PaymentURL" />
+
+        <Button
+            android:id="@+id/click_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Click me" />
+
+    </LinearLayout>
+</ScrollView>
